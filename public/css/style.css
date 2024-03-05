@@ -1,0 +1,32 @@
+* {
+  font-family: 'Lateef', serif;
+  font-weight: 400;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: x-large;
+}
+
+.navbar-brand {
+  width: 35px;
+}
+
+#main-jumbtrone {
+  width: 250px;
+}
+
+#span1 {
+  color: green;
+}
+
+#span2 {
+  color: #fff;
+}
+
+#span3 {
+  color: gold;
+}
+
+p {
+  direction: rtl;
+}
