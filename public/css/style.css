@@ -2,7 +2,7 @@
   font-family: 'Lateef', serif;
   font-weight: 400;
 }
-
+/* ghj */
 .navbar .nav-item .nav-link {
   font-size: x-large;
 }
@@ -29,4 +29,9 @@
 
 p {
   direction: rtl;
+}
+
+.mo {
+  width: 200px;
+  border-radius: 10px;
 }

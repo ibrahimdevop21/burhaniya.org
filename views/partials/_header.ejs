@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark py3 fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand"
-          ><img src="img/burhaniya-logo.png" class="img-fluid w-1" alt=""
+          ><img src="img/logo.png" class="img-fluid w-1" alt=""
         /></a>
         <button
           class="navbar-toggler"
@@ -36,34 +36,30 @@
         <div class="collaps navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link text-white">الصفحة الرئيسية</a>
+              <a href="/" class="nav-link text-white">الصفحة الرئيسية</a>
             </li>
             <li class="nav-item">
-              <a href="#islam" class="nav-link text-white">أسلاميات</a>
+              <a href="/views/islam.ejs" class="nav-link text-white"
+                >أسلاميات</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#sufi" class="nav-link text-white">التصوف</a>
+              <a href="/views/sufi.ejs" class="nav-link text-white">التصوف</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                id="dropdown1"
-                data-bs-toggle="dropdown"
-                data-bs-target="#navmenu2"
+            <li class="nav-item">
+              <a href="/views/mag.ejs" class="nav-link text-white"
                 >رايات العز</a
               >
-              <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                <li>
-                  <a href="#" class="dropdown-item">المجلة</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">المكتبة</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">المعرض</a>
-                </li>
-              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="/views/library.ejs" class="nav-link text-white"
+                >المكتبة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/views/gallery.ejs" class="nav-link text-white"
+                >المعرض</a
+              >
             </li>
           </ul>
         </div>
@@ -71,3 +67,4 @@
     </nav>
   </body>
 </html>
+<!-- ghjk -->
